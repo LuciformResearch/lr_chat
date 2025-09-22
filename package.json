@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev-logged": "npx tsx dev-logger.ts",
-    "build": "npm run prepare-vercel && next build",
-    "prepare-vercel": "cp -r src/vercel-app/* src/app/",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
