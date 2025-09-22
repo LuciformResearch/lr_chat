@@ -107,6 +107,7 @@ secret-ops/
 
 # Scripts de configuration
 setup-vercel-env.sh
+setup.sh
 
 # Local database data
 postgres_data/

@@ -538,6 +538,12 @@ export default function CVPage() {
       <div className="absolute top-4 right-4 z-50 flex flex-col gap-2">
         <LanguageSwitcher />
         <ThemeSwitcher />
+        <Link 
+          href="/cv/pdf"
+          className="theme-gradient-primary hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition-colors text-center"
+        >
+          📄 PDF
+        </Link>
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-8 pt-16">
