@@ -363,16 +363,48 @@ const welcomeMessage = \`⛧ Bienvenue dans mon domaine, {name}. Murmure ton bes
         throw new Error('Élément CV non trouvé');
       }
       
-      // Convertir les images en base64 pour éviter les problèmes de CORS
-      const convertImageToBase64 = async (src: string): Promise<string> => {
+      // Convertir les images en base64 compressées pour réduire la taille du PDF
+      const convertImageToBase64 = async (src: string, quality: number = 0.8): Promise<string> => {
         try {
           const response = await fetch(src);
           const blob = await response.blob();
+          
+          // Créer un canvas pour compresser l'image
           return new Promise((resolve, reject) => {
-            const reader = new FileReader();
-            reader.onload = () => resolve(reader.result as string);
-            reader.onerror = reject;
-            reader.readAsDataURL(blob);
+            const img = new Image();
+            img.onload = () => {
+              const canvas = document.createElement('canvas');
+              const ctx = canvas.getContext('2d');
+              
+              // Redimensionner si nécessaire pour réduire la taille
+              const maxWidth = 400; // Limite pour la photo de profil
+              const maxHeight = 500;
+              let { width, height } = img;
+              
+              if (width > maxWidth || height > maxHeight) {
+                const ratio = Math.min(maxWidth / width, maxHeight / height);
+                width *= ratio;
+                height *= ratio;
+              }
+              
+              canvas.width = width;
+              canvas.height = height;
+              
+              // Définir un fond blanc pour le canvas
+              if (ctx) {
+                ctx.fillStyle = '#ffffff';
+                ctx.fillRect(0, 0, width, height);
+              }
+              
+              // Dessiner l'image redimensionnée
+              ctx?.drawImage(img, 0, 0, width, height);
+              
+              // Convertir en base64 avec compression
+              const compressedDataUrl = canvas.toDataURL('image/jpeg', quality);
+              resolve(compressedDataUrl);
+            };
+            img.onerror = reject;
+            img.src = URL.createObjectURL(blob);
           });
         } catch (error) {
           console.warn(`Impossible de convertir l'image ${src}:`, error);
@@ -380,11 +412,11 @@ const welcomeMessage = \`⛧ Bienvenue dans mon domaine, {name}. Murmure ton bes
         }
       };
       
-      // Convertir les images importantes en base64
+      // Convertir les images importantes en base64 avec compression optimisée
       const baseUrl = window.location.origin;
-      const photoBase64 = await convertImageToBase64(`${baseUrl}/photos_lucie/photo2.jpg`);
-      const logoBase64 = await convertImageToBase64(`${baseUrl}/pentagram_icon_transparent.png`);
-      const albumBase64 = await convertImageToBase64(`${baseUrl}/Symbole macabre sur papier quadrillé - Fond album Egr3gorr.png`);
+      const photoBase64 = await convertImageToBase64(`${baseUrl}/photos_lucie/photo2.jpg`, 0.7); // Photo principale, qualité moyenne
+      const logoBase64 = await convertImageToBase64(`${baseUrl}/pentagram_icon_transparent.png`, 0.9); // Logo petit, qualité élevée
+      const albumBase64 = await convertImageToBase64(`${baseUrl}/Symbole macabre sur papier quadrillé - Fond album Egr3gorr.png`, 0.6); // Couverture album, compression forte
       
       // Remplacer les URLs par les base64
       const htmlWithBase64Images = element.outerHTML

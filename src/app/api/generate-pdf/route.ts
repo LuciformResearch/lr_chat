@@ -54,7 +54,7 @@ export async function POST(request: NextRequest) {
       // On continue même si certaines images échouent
     });
 
-    // Générer le PDF avec des options optimisées
+    // Générer le PDF avec des options optimisées pour réduire la taille
     const pdfBuffer = await page.pdf({
       format: 'A4',
       printBackground: true,
@@ -66,7 +66,10 @@ export async function POST(request: NextRequest) {
       },
       displayHeaderFooter: false,
       preferCSSPageSize: true,
-      timeout: 30000
+      timeout: 30000,
+      // Options pour réduire la taille du PDF
+      tagged: false, // Pas de métadonnées de structure
+      outline: false // Pas de plan
     });
 
     await browser.close();
