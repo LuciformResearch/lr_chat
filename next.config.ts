@@ -4,6 +4,10 @@ const nextConfig: NextConfig = {
   // Utiliser le dossier vercel-app pour le build
   distDir: '.next-vercel',
   
+  // Optimisations pour réduire la taille
+  compress: true,
+  poweredByHeader: false,
+  
   // Désactiver le linting strict pour le déploiement
   eslint: {
     ignoreDuringBuilds: true,
@@ -80,8 +84,12 @@ const nextConfig: NextConfig = {
   
   // Configuration pour les packages externes
   experimental: {
-    serverExternalPackages: ['onnxruntime-node', 'tar', 'pg'],
+    // Optimisations pour réduire la taille
+    optimizePackageImports: ['@google/genai', '@google/generative-ai', 'langchain'],
   },
+  
+  // Configuration pour les packages externes (hors experimental)
+  serverExternalPackages: ['onnxruntime-node', 'tar', 'pg'],
 };
 
 export default nextConfig;

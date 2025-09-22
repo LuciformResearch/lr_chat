@@ -18,6 +18,7 @@ dist/
 .env.development.local
 .env.test.local
 .env.production.local
+setup-vercel-env.sh
 
 # Vercel
 .vercel
@@ -103,6 +104,9 @@ lr_tools/
 test-projects/
 bytebot-main/
 secret-ops/
+
+# Scripts de configuration
+setup-vercel-env.sh
 
 # Local database data
 postgres_data/

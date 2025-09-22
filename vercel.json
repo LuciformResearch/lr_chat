@@ -9,5 +9,9 @@
     "NODE_ENV": "production"
   },
   "regions": ["fra1"],
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next-vercel",
+  "installCommand": "npm ci",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./"
 }
