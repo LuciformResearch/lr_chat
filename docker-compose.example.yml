@@ -1,0 +1,82 @@
+# =============================================================================
+# 🦊 LR Hub™ - Docker Compose pour PostgreSQL + pgvector
+# =============================================================================
+# Copiez ce fichier vers docker-compose.yml et adaptez les valeurs
+# cp docker-compose.example.yml docker-compose.yml
+
+version: '3.8'
+
+services:
+  # Base de données PostgreSQL avec extension pgvector
+  postgres:
+    image: pgvector/pgvector:pg15
+    container_name: lr_chat_db
+    environment:
+      POSTGRES_DB: lr_chat_db
+      POSTGRES_USER: lucie
+      POSTGRES_PASSWORD: your_strong_password_here_change_this
+    ports:
+      - "5433:5432"  # Port 5433 pour éviter les conflits avec PostgreSQL local
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro  # Script d'initialisation
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lucie -d lr_chat_db"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Ollama pour IA locale (optionnel)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: lr_chat_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    # Décommentez si vous voulez télécharger des modèles automatiquement
+    # command: >
+    #   sh -c "ollama serve & 
+    #          sleep 10 && 
+    #          ollama pull llama2 && 
+    #          ollama pull codellama && 
+    #          wait"
+
+volumes:
+  postgres_data:
+    driver: local
+  ollama_data:
+    driver: local
+
+# =============================================================================
+# 📚 INSTRUCTIONS D'UTILISATION
+# =============================================================================
+
+# 1. Copier et adapter le fichier :
+#    cp docker-compose.example.yml docker-compose.yml
+
+# 2. Modifier le mot de passe dans docker-compose.yml :
+#    POSTGRES_PASSWORD: votre_mot_de_passe_fort
+
+# 3. Lancer les services :
+#    docker-compose up -d
+
+# 4. Vérifier que PostgreSQL fonctionne :
+#    docker-compose ps
+#    docker-compose logs postgres
+
+# 5. Se connecter à la base :
+#    docker-compose exec postgres psql -U lucie -d lr_chat_db
+
+# 6. Configurer .env :
+#    DATABASE_URL="postgresql://lucie:votre_mot_de_passe@localhost:5433/lr_chat_db"
+
+# 7. Arrêter les services :
+#    docker-compose down
+
+# 8. Supprimer les données (ATTENTION : supprime tout) :
+#    docker-compose down -v

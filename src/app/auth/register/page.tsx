@@ -253,14 +253,24 @@ export default function RegisterPage() {
           </p>
           <div className="border-t border-white/20 pt-4 mt-4">
             <p className="theme-text-secondary text-sm mb-2">
-              Découvrez mon parcours professionnel
+              Découvrez mon parcours et mes projets
             </p>
-            <Link 
-              href="/cv" 
-              className="theme-gradient-secondary hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition-colors inline-block"
-            >
-              📄 Voir mon CV
-            </Link>
+            <div className="flex gap-2">
+              <Link 
+                href="/cv" 
+                className="theme-gradient-secondary hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition-colors inline-block text-sm"
+              >
+                📄 CV
+              </Link>
+              <Link 
+                href="https://gitlab.com/luciformresearch" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="theme-gradient-primary hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition-colors inline-block text-sm"
+              >
+                🦊 GitLab
+              </Link>
+            </div>
           </div>
         </div>
         </div>

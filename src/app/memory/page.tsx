@@ -1,8 +1,8 @@
+'use client';
+
 /**
  * Page de gestion de la mémoire et des résumés
  */
-
-'use client';
 
 import { useState, useEffect } from 'react';
 import { ThemeSwitcher } from '@/components/theme/ThemeSwitcher';

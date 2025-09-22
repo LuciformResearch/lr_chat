@@ -333,12 +333,22 @@ export default function CVPage() {
             <div className="theme-overlay-light backdrop-blur-sm rounded-lg p-6 theme-shadow inline-block">
               <h3 className="text-xl font-bold theme-text-primary mb-4">📧 Contact</h3>
               <p className="theme-text-secondary mb-4">luciedefraiteur@gmail.com</p>
-              <Link 
-                href="/"
-                className="theme-gradient-primary hover:opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-block"
-              >
-                🏠 Retour à l'accueil
-              </Link>
+              <div className="flex gap-3">
+                <Link 
+                  href="/"
+                  className="theme-gradient-primary hover:opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-block"
+                >
+                  🏠 Retour à l'accueil
+                </Link>
+                <Link 
+                  href="https://gitlab.com/luciformresearch" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="theme-gradient-secondary hover:opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-block"
+                >
+                  🦊 Voir mes projets
+                </Link>
+              </div>
             </div>
           </div>
         </div>

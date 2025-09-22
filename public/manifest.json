@@ -1,0 +1,27 @@
+{
+  "name": "LR Hub™ - Intelligence Artificielle & Développement",
+  "short_name": "LR Hub™",
+  "description": "Plateforme d'intelligence artificielle avancée avec agents conversationnels, mémoire hiérarchique et outils de développement.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f23",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/pentagram_icon_transparent.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pentagram_icon_transparent.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "developer", "ai"],
+  "lang": "fr",
+  "dir": "ltr"
+}

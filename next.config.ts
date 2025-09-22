@@ -90,6 +90,7 @@ const nextConfig: NextConfig = {
   
   // Configuration pour les packages externes (hors experimental)
   serverExternalPackages: ['onnxruntime-node', 'tar', 'pg'],
+  
 };
 
 export default nextConfig;

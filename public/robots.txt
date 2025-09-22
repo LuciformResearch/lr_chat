@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /cv
+Allow: /dashboard
+Allow: /chat
+Allow: /memory
+Allow: /settings
+
+Disallow: /api/
+Disallow: /auth/
+Disallow: /_next/
+Disallow: /admin/
+
+Sitemap: https://luciformresearch.com/sitemap.xml

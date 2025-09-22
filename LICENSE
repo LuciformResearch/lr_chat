@@ -1,45 +1,66 @@
-PROPRIETARY SOFTWARE LICENSE
+MIT License avec clause d'attribution renforcée
 
-Copyright (c) 2025 Luciform Research. All rights reserved.
+Copyright (c) 2025 Lucie Defraiteur
 
-This software and associated documentation files (the "Software") are proprietary 
-to Luciform Research and are protected by copyright laws and international 
-copyright treaties, as well as other intellectual property laws and treaties.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-RESTRICTIONS:
-- This Software is licensed, not sold, to you
-- You may not copy, modify, distribute, sell, or lease any part of this Software
-- You may not reverse engineer, decompile, or disassemble this Software
-- You may not remove or alter any proprietary notices or labels on the Software
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
 
-PERMITTED USE:
-- You may view and study this Software for educational purposes
-- You may use this Software as inspiration for your own projects
-- You may reference this Software in academic or professional contexts
-- You may create derivative works for personal learning purposes
+2. ATTRIBUTION REQUIREMENT: Any use of this Software, whether in whole or in part,
+   must include clear attribution to the original author:
+   - "Based on LR Hub™ by Lucie Defraiteur"
+   - Link to the original project: https://gitlab.com/luciformresearch/lr_chat
+   - Preservation of this copyright notice
 
-COMMERCIAL USE:
-Commercial use of this Software is strictly prohibited without explicit written 
-permission from Luciform Research.
+3. PROHIBITED USES:
+   - Copying the entire project without clear attribution
+   - Claiming original authorship of the Software
+   - Removing or obscuring copyright notices
+   - Using the Software in a way that misrepresents its origin
 
-DISCLAIMER:
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+4. INSPIRATION AND LEARNING: This Software is intended to serve as a reference
+   and inspiration for learning purposes. Partial copying for educational or
+   reference purposes is encouraged, provided proper attribution is maintained.
 
-For licensing inquiries, please contact: lucie@luciformresearch.com
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
-This license allows you to:
-✅ View and study the code for learning purposes
-✅ Use the code as inspiration for your own projects
-✅ Reference this work in your portfolio or academic work
+🦊 LR Hub™ - Intelligence Artificielle & Développement
+Créé par Lucie Defraiteur
+GitLab: https://gitlab.com/luciformresearch/lr_chat
+Site: https://luciformresearch.com
 
-This license prohibits:
-❌ Copying or redistributing the code
-❌ Using the code in commercial projects without permission
-❌ Claiming ownership of this work
-❌ Removing copyright notices
+---
 
-By viewing or using this Software, you agree to be bound by the terms of this license.
+📋 RÉSUMÉ DE LA LICENCE :
+
+✅ AUTORISÉ :
+- Utiliser le code comme référence/inspiration
+- Copier des parties du code avec attribution
+- Modifier et adapter des composants
+- Utiliser dans des projets personnels/commerciaux
+- Étudier le code pour apprendre
+
+❌ INTERDIT :
+- Copier le projet entier sans attribution
+- Prétendre être l'auteur original
+- Supprimer les mentions de copyright
+- Utiliser sans mentionner la source
+
+📋 OBLIGATOIRE :
+- Attribution claire : "Basé sur LR Hub™ par Lucie Defraiteur"
+- Lien vers le projet original
+- Conservation des mentions de copyright

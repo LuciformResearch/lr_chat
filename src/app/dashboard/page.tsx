@@ -1,8 +1,8 @@
+'use client';
+
 /**
  * Page Dashboard - Interface principale après connexion
  */
-
-'use client';
 
 import { useState, useEffect } from 'react';
 import { useAuth } from '@/lib/auth/useAuth';
@@ -239,14 +239,24 @@ function DashboardContent() {
               📄 CV Professionnel
             </h2>
             <p className="theme-text-secondary mb-4">
-              Découvrez mon parcours et mes compétences en IA générative
+              Découvrez mon parcours et mes projets en IA générative
             </p>
-            <Link 
-              href="/cv"
-              className="theme-gradient-secondary hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition-colors inline-block"
-            >
-              Voir mon CV
-            </Link>
+            <div className="flex gap-3">
+              <Link 
+                href="/cv"
+                className="theme-gradient-secondary hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition-colors inline-block"
+              >
+                📄 Voir mon CV
+              </Link>
+              <Link 
+                href="https://gitlab.com/luciformresearch" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="theme-gradient-primary hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition-colors inline-block"
+              >
+                🦊 GitLab
+              </Link>
+            </div>
           </div>
 
           {/* Debug Mémoire */}

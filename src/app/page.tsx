@@ -1,8 +1,8 @@
+'use client';
+
 /**
  * Page d'accueil pour Vercel - Redirection vers le dashboard
  */
-
-'use client';
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
@@ -57,17 +57,27 @@ export default function HomePage() {
             Redirection vers le dashboard...
           </p>
           
-          {/* Lien vers le CV */}
+          {/* Liens vers le CV et GitLab */}
           <div className="theme-overlay-light backdrop-blur-sm rounded-lg p-4 theme-shadow inline-block">
             <p className="theme-text-secondary text-sm mb-3">
-              Découvrez mon parcours professionnel
+              Découvrez mon parcours professionnel et mes projets
             </p>
-            <Link 
-              href="/cv" 
-              className="theme-gradient-secondary hover:opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-block"
-            >
-              📄 Voir mon CV
-            </Link>
+            <div className="flex gap-3 justify-center">
+              <Link 
+                href="/cv" 
+                className="theme-gradient-secondary hover:opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-block"
+              >
+                📄 Voir mon CV
+              </Link>
+              <Link 
+                href="https://gitlab.com/luciformresearch" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="theme-gradient-primary hover:opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-block"
+              >
+                🦊 GitLab
+              </Link>
+            </div>
           </div>
         </div>
       </div>
