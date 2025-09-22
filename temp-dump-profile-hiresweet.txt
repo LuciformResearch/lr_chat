@@ -1,0 +1,178 @@
+profile
+Lucie
+Defraiteur
+Fullstack & GenAI Engineer | DevOps | AI Orchestration | Open Source
+Localisation
+42 Paris
+Importer mon LinkedInÉditer
+Engineer spécialisée en Fullstack & AI Orchestration (Next.js, RAG, LLMs, pgVector, DevOps).
+Je conçois des systèmes multi-fournisseurs (OpenAI, Gemini, Anthropic, Ollama) et développe des outils open-source pour accélérer la productivité des développeurs — y compris un chat multimodal accessible dans mon portfolio.
+Passionnée par l’agentique et l’innovation, je rends disponibles mes projets en open-source sur GitLab.
+
+Le Hub de mon side project/portfolio: https://www.luciformresearch.com
+Le gitlab du portfolio est ici: https://gitlab.com/luciformresearch/lr_chat
+
+En parallèle, je développe un univers artistique personnel (metal/black metal expérimental). Exemple : mon groupe sur Deezer, https://www.deezer.com/fr/artist/339068821
+Expérience professionnelle
+DevOps & Growth Engineer
+LuciformResearch
+Août 2025
+•
+Auj.
+DevOps & Growth Engineer
+
+Compétences : Nextjs · Retrieval-Augmented Generation (RAG) · Docker · Pgvector · Google Genai · DrizzleORM · Treesitter · Architecture · Tailwind CSS · Technologies de l’information · Nodemailer · PostgreSQL · Vercel
+3D/Tools Developper
+Designhubz
+Févr. 2023
+•
+Janv. 2024
+  
+À distance
+Développement d’outils 3D interactifs et optimisation front-end.
+
+Compétences : React Native · Engineering · Cascading Style Sheets (CSS) · Algorithms · Data Structures
+Babylon / Webgl / 3D expert
+Verizon / Smartcom / Altersis
+Févr. 2021
+•
+Févr. 2023
+  
+remote
+Développement d’outils 3D interactifs et optimisation front-end.
+
+Compétences : TypeScript · React.js · React Native · C++ · Engineering · OpenGL Shading Language (GLSL) · Cascading Style Sheets (CSS) · Three.js · Algorithms · WebGL · Data Structures · OpenGL
+3D/Tools Developper
+A2Mac1 - Automotive Benchmarking
+Oct. 2019
+•
+Nov. 2020
+Développement d’outils 3D interactifs et optimisation front-end.
+
+Compétences : TypeScript · Unreal Engine 4 · AngularJS · gom · C++ · Multithreading · Engineering · OpenGL Shading Language (GLSL) · Cascading Style Sheets (CSS) · Three.js · Algorithms · Angular · WebGL · Data Structures
+Game Developer
+Flashbreak
+Janv. 2019
+•
+Juin 2019
+  
+Paris Area, France
+I did some threejs/webgl games for some kind of game streaming app.
+
+People played everyday at specific hours and were able to win money from it if they did beat others.
+
+Sadly the startup failed to reach enough daily users, and stopped.
+Compétences : TypeScript · OpenGL Shading Language (GLSL) · Cascading Style Sheets (CSS) · Three.js · Algorithms · Data Structures
+THREEJS / Typescript developper
+GameBuilt
+Juil. 2018
+•
+Déc. 2018
+  
+Aix en provence
+Compétences : TypeScript · OpenGL Shading Language (GLSL) · Cascading Style Sheets (CSS) · Three.js · Algorithms · Data Structures
+Unity Game Developper
+Eden Games / Smart Tale Games
+Avr. 2018
+•
+Juil. 2018
+  
+Lyon Area, France
+Working as a game developper for some cool car game (Gear Club 2), in collaboration with Eden Games.
+Compétences : Unity
+Lead Unity Developper
+AddSome
+Oct. 2017
+•
+Févr. 2018
+  
+Paris, France
+Working on some complex 3D/2D application destinated to proffessionnals.
+Compétences : .NET Framework · Algorithms · Unity
+Game Developer
+Nectar de Code
+Nov. 2015
+•
+Avr. 2016
+  
+remote job
+Lead developper of a cool, new kind of TD game.
+Compétences : Unity
+Game / Software Developer
+Zero Games Studios
+Oct. 2015
+•
+Oct. 2015
+Little mission of two weeks, php server, and main application for Club Med animation.
+Compétences : Unity
+Expérience académique
+42 Paris
+Janv. 2013
+•
+Janv. 2015
+Engineer's Degree, Games and Software Developpement
+Autodidact - Self Taught.
+Avr. 2024
+•
+Auj.
+Passionnée d'ia, d'applications et jeux 3D, et de reverse engineering
+
+liens videos:
+
+A2Mac1, lignes découpe en temps réél vehicules très haut poly, (plusieurs millions), et export vers IGES:
+utilisation générale:
+https://www.youtube.com/watch?v=72MchVWr1zM&feature=youtu.be
+demo export iges:
+https://www.youtube.com/watch?v=aB0px8-A9S4&feature=youtu.be
+
+A2Mac1, outil minimal/oriented bounding box en temps réél, toujours sur pieces de vehicules très haut poly:
+https://www.youtube.com/watch?v=N3SbzY1vlh4
+
+DesignHubz, Advanced3DView, outil personnlisé de navigation pour objets/bijoux de luxe/art:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VYLJY-ADjT4?si=dhMQCuX1YJwKpkBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Projet perso, moteur rendu webgpu/webxr/electron from scratch:
+rendu webxr:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5y_AhouQd98?si=m3g_qxBNaEIv4BOX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Projet perso, outil d'animation 3D:
+
+démonstration rigging rapide et animation:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XrMqmwP3i5Q?si=fTGbP1naCj7-p1qj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+démonstration génération de poids:
+<div style="padding:75.63% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/354382394?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Test des poids générés par le programme"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+démonstration ik/fk.
+<div style="padding:114.17% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/354382624?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="getfvid_64274419_662970200813377_2874382013770782960_n"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+Projet perso, editeur de map de jeux en vr sur unity: (prévenir attention a la musique métal mdr)
+- placement de blocs (style minecraft) et elements 3D, gestionnaire d'assets:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mpjuCC6f0qY?si=lRIxZKFaSA0FziE2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+- démo character fight:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MvlL0xR47gA?si=vitwHyIszUpDHkma" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Projet perso, editeur de heightmap nodal pour génération de terrain sur unity:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YLxsFT6W-xQ?si=naSQ8nYl8sPXzAwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Hobby, génération procédurale de maison via vex scripting sur houdini:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QR8taSTJrTg?si=j3-w-hKF-WMw1v95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Projet perso très lointain, moteur de jeu perso quand j'étais encore a l'école 42:
+(C# / gestion de librairies de scripting C# dynamique, comme sur unity (classes Transform Renderer, editeur de scene, gestionnaire d'assets, multiview...))
+<iframe width="560" height="315" src="https://www.youtube.com/embed/br4s_2I0DEw?si=fGomRpP0ctG7lDDj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+bugs encore:
+video du Moteur WebGPU/WebXR, le preview est buggé, voir si qqchose cloche par rapport a celle la, le preview est grisé, quand on clic on arrive bien sur la video youtube.
+
+
+Outil d'Animation 3D - Génération de poids, pas de preview du tout, donc il faut remplacer par l'iframe que j'ai donné pour la video,
+
+
+Outil d'Animation 3D - IK/FK, pas de preview, pareil, remplacer par l'iframe que j'ai donné pour la video.
+
+
+videos A2Mac1, liens remplacés par des liens youtube.
