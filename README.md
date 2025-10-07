@@ -266,25 +266,13 @@ chore: maintenance
 
 ## 📝 Licence
 
-Ce projet est sous **licence MIT avec clause d'attribution renforcée**. 
+Ce projet est sous licence **Apache 2.0**.
 
-### ✅ **Autorisé** :
-- Utiliser le code comme référence/inspiration
-- Copier des parties du code avec attribution
-- Modifier et adapter des composants
-- Utiliser dans des projets personnels/commerciaux
+- Autorisé: utilisation, modification, distribution et usage commercial, selon les termes de la licence.
+- Conditions: conserver les avis de droit d’auteur et la licence; inclure un fichier `NOTICE` si présent; indiquer les modifications apportées.
+- Garantie: le logiciel est fourni « tel quel », sans garantie d’aucune sorte.
 
-### ❌ **Interdit** :
-- Copier le projet entier sans attribution
-- Prétendre être l'auteur original
-- Supprimer les mentions de copyright
-
-### 📋 **Attribution obligatoire** :
-- "Basé sur LR Hub™ par Lucie Defraiteur"
-- Lien vers le projet original
-- Conservation des mentions de copyright
-
-Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Voir le fichier `LICENSE` (Apache 2.0) pour les conditions complètes.
 
 ## 👩‍💻 Auteur
 
